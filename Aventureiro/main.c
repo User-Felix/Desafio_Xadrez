@@ -40,7 +40,6 @@ int main()
             {
                 // Movimento da Torre: Para a direita
                 printf("\nMovimentos da Torre (para a direita):\n");
-                int j = 0; // Variável para o loop while
                 for (int i = 0; i < TORRE_MOVE; i++)
                 {
                     printf("Direita\n");
@@ -50,8 +49,6 @@ int main()
             {
                 // Movimento da Rainha: Para a esquerda
                 printf("\nMovimentos da Rainha (para a esquerda):\n");
-                int k = 0; // Variável para o loop do-while
-
                 for (int i = 0; i < RAINHA_MOVE; i++)
                 {
                     printf("Esquerda\n");
